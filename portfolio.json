@@ -1,6 +1,6 @@
 {
   "generator": "Updater",
-  "generatedAt": "2026-10-31T13:13:35.832Z",
+  "generatedAt": "2026-10-31T13:47:44.558Z",
   "portfolio": {
     "profile": {
       "name": "Tanay Dwivedi",
@@ -8,17 +8,36 @@
       "intro": "",
       "links": []
     },
-    "skills": [],
+    "skills": [
+      "TypeScript",
+      "JavaScript"
+    ],
     "projects": [
       {
-        "name": "my-sample-portfolio",
-        "summary": "my-sample-portfolio.",
-        "technologies": [],
+        "name": "Abandoned",
+        "summary": "Abandoned.",
+        "technologies": [
+          "TypeScript"
+        ],
         "achievements": [],
         "links": [
           {
             "label": "Repository",
-            "url": "https://github.com/tanay9098/my-sample-portfolio"
+            "url": "https://github.com/tanay9098/Abandoned"
+          }
+        ]
+      },
+      {
+        "name": "Nihingo",
+        "summary": "Nihingo.",
+        "technologies": [
+          "JavaScript"
+        ],
+        "achievements": [],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/tanay9098/Nihingo"
           }
         ]
       }
