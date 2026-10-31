@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light dark;
+  --background: #f7f7f8;
+  --surface: #ffffff;
+  --foreground: #18181b;
+  --foreground-secondary: #3f3f46;
+  --muted: #5c5c66;
+  --border: #e4e4e7;
+  --link: #1d4ed8;
+  --focus-ring: #2563eb;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0c0c0e;
+    --surface: #141417;
+    --foreground: #f4f4f5;
+    --foreground-secondary: #d4d4d8;
+    --muted: #a1a1aa;
+    --border: #27272c;
+    --link: #7aa7ff;
+    --focus-ring: #7aa7ff;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font: 1rem/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 3rem 1rem 4rem;
+}
+header { margin-bottom: 2.5rem; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.25rem; }
+h2 { font-size: 1.25rem; line-height: 1.4; margin: 2.5rem 0 0.75rem; }
+h3 { font-size: 1.0625rem; line-height: 1.5; margin: 0 0 0.25rem; }
+p { margin: 0 0 0.75rem; }
+.headline { font-size: 1.125rem; color: var(--foreground-secondary); margin-bottom: 0.25rem; }
+.meta { font-size: 0.875rem; color: var(--muted); }
+.intro { margin-top: 1rem; }
+a { color: var(--link); text-underline-offset: 0.15em; }
+a:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: 2px; }
+ul { margin: 0; padding: 0; }
+.links { list-style: none; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; margin-top: 0.75rem; }
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chips li { border: 1px solid var(--border); border-radius: 6px; padding: 0 0.5rem; background: var(--surface); }
+.bullets { padding-left: 1.25rem; margin-bottom: 0.75rem; }
+.bullets li + li { margin-top: 0.25rem; }
+article { border-top: 1px solid var(--border); padding-top: 1.25rem; margin-top: 1.25rem; }
+section > article:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+@media print { a { color: inherit; } }

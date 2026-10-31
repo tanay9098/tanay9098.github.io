@@ -1,0 +1,28 @@
+{
+  "generator": "Updater",
+  "generatedAt": "2026-10-31T13:13:35.832Z",
+  "portfolio": {
+    "profile": {
+      "name": "Tanay Dwivedi",
+      "headline": "",
+      "intro": "",
+      "links": []
+    },
+    "skills": [],
+    "projects": [
+      {
+        "name": "my-sample-portfolio",
+        "summary": "my-sample-portfolio.",
+        "technologies": [],
+        "achievements": [],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/tanay9098/my-sample-portfolio"
+          }
+        ]
+      }
+    ],
+    "achievements": []
+  }
+}
