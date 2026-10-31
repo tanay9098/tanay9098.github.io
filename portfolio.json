@@ -1,6 +1,6 @@
 {
   "generator": "Updater",
-  "generatedAt": "2026-10-31T14:12:17.417Z",
+  "generatedAt": "2026-10-31T14:17:24.867Z",
   "portfolio": {
     "profile": {
       "name": "Tanay Dwivedi",
@@ -10,7 +10,8 @@
     },
     "skills": [
       "TypeScript",
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
     "projects": [
       {
@@ -38,6 +39,60 @@
           {
             "label": "Repository",
             "url": "https://github.com/tanay9098/Nihingo"
+          }
+        ]
+      },
+      {
+        "name": "CourseMate-AI",
+        "summary": "CourseMate-AI.",
+        "technologies": [
+          "Python"
+        ],
+        "achievements": [],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/tanay9098/CourseMate-AI"
+          }
+        ]
+      },
+      {
+        "name": "Movie_Analytics",
+        "summary": "Movie_Analytics.",
+        "technologies": [],
+        "achievements": [],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/tanay9098/Movie_Analytics"
+          }
+        ]
+      },
+      {
+        "name": "Nova",
+        "summary": "Nova.",
+        "technologies": [
+          "Python"
+        ],
+        "achievements": [],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/tanay9098/Nova"
+          }
+        ]
+      },
+      {
+        "name": "PokeDex",
+        "summary": "PokeDex.",
+        "technologies": [
+          "TypeScript"
+        ],
+        "achievements": [],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/tanay9098/PokeDex"
           }
         ]
       }
